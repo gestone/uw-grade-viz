@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="models.database.mapping">
+    <class name="com.models.database.UWClass" table="classes" >
+        <id name="year" type="java.lang.Integer">
+            <column name="year"/>
+        </id>
+        <property name="year" type="java.lang.Integer" />
+        <property name="quarter" type="string" />
+        <property name="courseNumber" type="string" />
+        <property name="courseTitle" type="string" />
+        <property name="instructor" type="string" />
+        <property name="studentCount" type="java.lang.Integer" />
+        <property name="numAs" type="java.lang.Integer" />
+        <property name="numAMinus" type="java.lang.Integer" />
+        <property name="numBPlus" type="java.lang.Integer" />
+        <property name="numB" type="java.lang.Integer" />
+        <property name="numBMinus" type="java.lang.Integer" />
+        <property name="numCPlus" type="java.lang.Integer" />
+        <property name="numC" type="java.lang.Integer" />
+        <property name="numCMinus" type="java.lang.Integer" />
+        <property name="numD" type="java.lang.Integer" />
+        <property name="numDMinus" type="java.lang.Integer" />
+        <property name="numF" type="java.lang.Integer" />
+        <property name="numWithdrawn" type="java.lang.Integer" />
+        <property name="averageGpa" type="java.lang.Float" />
+    </class>
+</hibernate-mapping>
+
